@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Heading } from "./Heading";
+import { UserList } from "./UserList";
 
-function Home() {
+export const Home = () => {
   return (
-    <div>
-        <h1>home</h1>
-    </div>
+    <>
+      <Heading />
+      <UserList />
+    </>
   )
 }
-
-export default Home
